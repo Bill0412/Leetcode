@@ -24,11 +24,11 @@ def generate_toc():
             continue
 
         toc += '## ' + slug_to_category(dir) + '\n\n'
-        
-        problems = [(problem.split()[0][:-1], problem) for problem in os.listdir(dir)]
-        problems.sort()
 
-        for _, problem in problems:
+        problems = os.listdir(dir)
+        problems.sort(key=lambda x: int(x.split('_')[0]))
+        
+        for problem in problems:
             path = os.path.join(dir, problem)
             toc += '- [{}]({})\n'.format(slug_to_title(problem), path)
 
