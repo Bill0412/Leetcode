@@ -7,6 +7,6 @@
 
 ## Binary Search
 
-- [462. Minimum Moves To Equal Array Elements Ii](binary_search/462_minimum_moves_to_equal_array_elements_ii)
 - [436. Find Right Interval](binary_search/436_find_right_interval)
+- [462. Minimum Moves To Equal Array Elements Ii](binary_search/462_minimum_moves_to_equal_array_elements_ii)
 
