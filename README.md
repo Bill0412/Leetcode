@@ -9,6 +9,7 @@
 
 - [1943. Describing The Painting](difference_array/1943_describing_the_painting)
 - [2015. Average Height Of Buildings In Each Segment](difference_array/2015_average_height_of_buildings_in_each_segment)
+- [2251. Number Of Flowers In Full Bloom](difference_array/2251_number_of_flowers_in_full_bloom)
 
 ## Min Max
 
