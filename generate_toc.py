@@ -6,9 +6,19 @@ def slug_to_title(slug: str) -> str:
     """
     Convert a slug to a title
     """
-    words = slug.split('_')
+    words = [word.capitalize() for word in slug.split('_')]
     words[0] += '.'
-    return ' '.join(word.capitalize() for word in words)
+
+    is_roman = True
+    for ch in words[-1]:
+        if ch != 'i' and ch != 'I' and ch != 'V' and ch != 'v':
+            is_roman = False
+            break
+    
+    if is_roman:
+        words[-1] = words[-1].upper()
+
+    return ' '.join(words)
 
 def slug_to_category(slug: str) -> str:
     """
@@ -19,7 +29,9 @@ def slug_to_category(slug: str) -> str:
 
 def generate_toc():
     toc = '# Leetcode Solutions and Templates\n\n'
-    for dir in os.listdir('./'):
+    dirs = os.listdir('./')
+    dirs.sort()
+    for dir in dirs:
         if not os.path.isdir(dir) or dir.startswith('.'):
             continue
 
