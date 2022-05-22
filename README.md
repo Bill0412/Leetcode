@@ -1,5 +1,7 @@
 # Leetcode Solutions and Templates
 
+![Leetcode Rating](https://fc.dianhsu.top/lc?user=bill04128682&loc=cn&req=rating)
+
 ## Binary Search
 
 - [436. Find Right Interval](binary_search/436_find_right_interval)

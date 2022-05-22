@@ -29,6 +29,7 @@ def slug_to_category(slug: str) -> str:
 
 def generate_toc():
     toc = '# Leetcode Solutions and Templates\n\n'
+    toc += '![Leetcode Rating](https://fc.dianhsu.top/lc?user=bill04128682&loc=cn&req=rating)\n\n'
     dirs = os.listdir('./')
     dirs.sort()
     for dir in dirs:
