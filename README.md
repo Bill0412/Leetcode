@@ -7,6 +7,10 @@
 - [436. Find Right Interval](binary_search/436_find_right_interval)
 - [462. Minimum Moves To Equal Array Elements II](binary_search/462_minimum_moves_to_equal_array_elements_ii)
 
+## Breadth First Search
+
+- [675. Cut Off Trees For Golf Event](breadth_first_search/675_cut_off_trees_for_golf_event)
+
 ## Difference Array
 
 - [1943. Describing The Painting](difference_array/1943_describing_the_painting)
