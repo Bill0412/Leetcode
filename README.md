@@ -7,6 +7,10 @@
 - [436. Find Right Interval](binary_search/436_find_right_interval)
 - [462. Minimum Moves To Equal Array Elements II](binary_search/462_minimum_moves_to_equal_array_elements_ii)
 
+## Binary Tree
+
+- [965. Univalued Binary Tree](binary_tree/965_univalued_binary_tree)
+
 ## Difference Array
 
 - [1943. Describing The Painting](difference_array/1943_describing_the_painting)
