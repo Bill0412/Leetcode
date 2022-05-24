@@ -10,6 +10,9 @@
 ## Binary Tree
 
 - [965. Univalued Binary Tree](binary_tree/965_univalued_binary_tree)
+## Breadth First Search
+
+- [675. Cut Off Trees For Golf Event](breadth_first_search/675_cut_off_trees_for_golf_event)
 
 ## Difference Array
 
