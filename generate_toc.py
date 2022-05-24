@@ -38,7 +38,7 @@ def generate_toc():
 
         toc += '## ' + slug_to_category(dir) + '\n\n'
 
-        problems = os.listdir(dir)
+        problems = [t for t in os.listdir(dir) if os.path.isdir(os.path.join(dir, t))]
         problems.sort(key=lambda x: int(x.split('_')[0]))
         
         for problem in problems:

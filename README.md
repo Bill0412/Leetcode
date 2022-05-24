@@ -10,14 +10,17 @@
 ## Binary Tree
 
 - [965. Univalued Binary Tree](binary_tree/965_univalued_binary_tree)
+
 ## Breadth First Search
 
 - [675. Cut Off Trees For Golf Event](breadth_first_search/675_cut_off_trees_for_golf_event)
 
 ## Difference Array
 
+- [995. Minimum Number Of K Consecutive Bit Flips](difference_array/995_minimum_number_of_k_consecutive_bit_flips)
 - [1943. Describing The Painting](difference_array/1943_describing_the_painting)
 - [2015. Average Height Of Buildings In Each Segment](difference_array/2015_average_height_of_buildings_in_each_segment)
+- [2237. Count Positions On Street With Required Brightness](difference_array/2237_count_positions_on_street_with_required_brightness)
 - [2251. Number Of Flowers In Full Bloom](difference_array/2251_number_of_flowers_in_full_bloom)
 
 ## Min Max
