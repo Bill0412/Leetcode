@@ -18,6 +18,7 @@
 ## Depth First Search
 
 - [473. Matchsticks To Square](depth_first_search/473_matchsticks_to_square)
+- [698. Partition To K Equal Sum Subsets](depth_first_search/698_partition_to_k_equal_sum_subsets)
 
 ## Difference Array
 
