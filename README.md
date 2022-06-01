@@ -15,6 +15,10 @@
 
 - [675. Cut Off Trees For Golf Event](breadth_first_search/675_cut_off_trees_for_golf_event)
 
+## Depth First Search
+
+- [473. Matchsticks To Square](depth_first_search/473_matchsticks_to_square)
+
 ## Difference Array
 
 - [995. Minimum Number Of K Consecutive Bit Flips](difference_array/995_minimum_number_of_k_consecutive_bit_flips)
