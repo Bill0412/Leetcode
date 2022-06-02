@@ -32,3 +32,7 @@
 
 - [464. Can I Win](min_max/464_can_i_win)
 
+## Monotonic Stack
+
+- [2104. Sum Of Subarray Ranges](monotonic_stack/2104_sum_of_subarray_ranges)
+
