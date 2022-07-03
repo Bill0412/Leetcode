@@ -35,10 +35,11 @@ def generate_toc():
     for dir in dirs:
         if not os.path.isdir(dir) or dir.startswith('.'):
             continue
+        print('processing {}'.format(dir))
 
         toc += '## ' + slug_to_category(dir) + '\n\n'
 
-        problems = os.listdir(dir)
+        problems = [subdir for subdir in os.listdir(dir) if os.path.isdir(os.path.join(dir, subdir))]
         problems.sort(key=lambda x: int(x.split('_')[0]))
         
         for problem in problems:
