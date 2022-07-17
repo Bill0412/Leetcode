@@ -1,6 +1,6 @@
 # Leetcode Solutions and Templates
 
-![Leetcode Rating](https://fc.dianhsu.top/lc?user=bill04128682&loc=cn&req=rating)
+![Leetcode Rating](http://fc.dianhsu.top/lc?user=bill04128682&loc=cn&req=rating)
 
 ## Binary Search
 
