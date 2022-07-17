@@ -32,6 +32,10 @@
 - [2237. Count Positions On Street With Required Brightness](difference_array/2237_count_positions_on_street_with_required_brightness)
 - [2251. Number Of Flowers In Full Bloom](difference_array/2251_number_of_flowers_in_full_bloom)
 
+## Dynamic Programming
+
+- [2222. Number Of Ways To Select Buildings](dynamic_programming/2222_number_of_ways_to_select_buildings)
+
 ## Min Max
 
 - [464. Can I Win](min_max/464_can_i_win)
